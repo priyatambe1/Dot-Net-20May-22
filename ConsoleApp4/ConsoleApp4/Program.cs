@@ -7,7 +7,7 @@ namespace ConsoleApp4
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // Insertion
             Console.WriteLine("Please enter your name");
