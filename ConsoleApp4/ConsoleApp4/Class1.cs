@@ -61,11 +61,6 @@ namespace ConsoleApp4
                         db.Tblsamples.Remove(DeleteObject);
                         db.SaveChanges();
                         Console.WriteLine("Record is successfully Deleted.");
-
-                        //   foreach (var item in data)
-                        // {
-                        //  Console.WriteLine(item.Id + " | " + item.Text);
-                        //  }
                         break;
                     case 5:
                         Exit = true;
